@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Task List</title>
+</head>
+
+<body>
+    <div class="container">
+        <h4>Task List</h4>
+        <form id="task-form" >
+            <input type="text" id="new-task" placeholder="New Task" >
+            <input type="submit" value="Add Task" class="btn btn-success">
+        </form>
+        
+        <h4>Tasks</h4>
+        <input type="text" id="task-filter" placeholder="Filter Task">
+        <ul id="tasks">
+            
+        </ul>
+        <button id="clear-btn" class="btn btn-danger">Clear Tasks</button>
+    </div>
+
+    <script src="Main.js"></script>
+</body>
+
+</html>
+
+
